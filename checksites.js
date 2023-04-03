@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 
 (async () => {
-  const websitesFile = 'felles-nasjonale-nettressurser2.txt';
+  const websitesFile = 'felles-nasjonale-nettressurser-edited.txt';
 
   // Read the websites from the file and split them into an array
   const websites = fs.readFileSync(websitesFile, 'utf-8').split('\n');
@@ -16,7 +16,7 @@ const fs = require('fs');
     name = name.replace('/', ' - ');
 
     const page = await context.newPage();
-    console.log(`Navigating to ${name} - ${url}`);
+    console.log(`     Navigating to ${name} - ${url}`);
     try {
       await page.goto(url);
       console.log(`Up ${name} ${url}`); 

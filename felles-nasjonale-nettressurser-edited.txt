@@ -128,7 +128,7 @@ YouGov | https://yougov.co.uk
 Valgdirektoratet | https://www.valg.no
 V-dem | https://v-dem.net
 Verbix – verbbøyning for flere språk | https://verbix.com/
-Verdens naturfond (WWF)	https://www.wwf.no
+Verdens naturfond (WWF)	| https://www.wwf.no
 VigoIKS Eksamen | https://www.vigoiks.no/eksamen
 Visit Norway (norsk) | https://www.visitnorway.no
 Visit Norway (engelsk) | https://www.visitnorway.com
